@@ -151,3 +151,16 @@ export const JOKES = [
 ['What do you call a birthday candle that tells jokes?','A real bright spark.'],
 ['Why is Dad the best person to invite to a party?','He always brings the good groans.']
 ];
+
+export const LOVE_NOTES = [
+  "It is really fun to play-fight and wrestle with you",
+  "You are THE BEST chef ever",
+  "You are very creative and are always coming up with new ideas",
+  "You are super smart and a great tutor",
+  "You always challenge us in games (even though you lose all the time)",
+  "You are a great sports coach and fun to watch sports games with",
+  "Though you have bad taste in music it is fun to sing along to music with you",
+  "We appreciate all the time and effort that you spend in making our lives better",
+  "You are funny and always have a dad joke ready",
+  "You always challenge us to be the best version of ourselves"
+];

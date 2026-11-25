@@ -9,3 +9,31 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.home-card:hover,.coupon-card:hover,.joke-card:hover,.button:hover{transform:none}}
 
 .coupon-card .coupon-bottom strong{font-size:.875rem}.coupon-card .coupon-bottom>span{font-size:.75rem}@media(max-width:640px){.home-card p{max-width:185px}.home-card .card-art{width:130px;right:8px}.coupon-card .coupon-bottom{flex-direction:column;gap:4px}.coupon-card .coupon-bottom>span{font-size:.7rem}.coupon-card{min-height:245px}.coupon-card:before,.coupon-card:after{top:172px}}@media(max-width:370px){.home-card .card-art{width:110px;right:0}.home-card p{max-width:180px}}
+
+/* Ten things we love about Warren */
+.home-card.love-block{grid-column:1/-1;background:#d9eee3;min-height:224px}
+.home-card.love-block h3{max-width:75%;font-size:2.1rem;line-height:1.12}
+.home-card.love-block p{max-width:70%}
+.home-card.love-block .love-art{width:190px;right:55px;bottom:22px}
+.love-block .card-cta>span{font-size:1.25rem;line-height:1}
+.love-heading{max-width:760px;margin-bottom:44px}
+.love-heading h1 span{color:#d84a72}
+.love-bubbles{display:grid;grid-template-columns:1fr 1fr;gap:35px 30px;max-width:970px;padding:0 10px 26px;margin:0 auto;list-style:none}
+.speech-bubble{position:relative;display:flex;align-items:center;gap:20px;min-height:158px;padding:28px 30px;background:#fbdbe5;border-radius:30px 30px 30px 10px}
+.speech-bubble:after{content:'';position:absolute;bottom:-15px;left:27px;width:29px;height:23px;background:inherit;clip-path:polygon(0 0,100% 0,0 100%)}
+.speech-bubble:nth-child(even){transform:translateY(21px);border-radius:30px 30px 10px 30px}
+.speech-bubble:nth-child(even):after{left:auto;right:27px;clip-path:polygon(0 0,100% 0,100% 100%)}
+.speech-bubble:nth-child(5n+2){background:#e8ddf7}
+.speech-bubble:nth-child(5n+3){background:#dceee4}
+.speech-bubble:nth-child(5n+4){background:#fff0bd}
+.speech-bubble:nth-child(5n+5){background:#dfe8fc}
+.bubble-heart{font-size:2rem;color:#72537f;flex:none;line-height:1;align-self:flex-start;margin-top:3px}
+.speech-bubble p{font-family:'Outfit','Trebuchet MS',sans-serif;font-size:1.22rem;line-height:1.55;font-weight:500}
+.love-signoff{text-align:center;margin:52px 0 10px}
+.love-signoff>span{display:block;color:#d84a72;font-size:1.7rem;margin-bottom:14px}
+.love-signoff p{font-family:'Outfit','Trebuchet MS',sans-serif;font-size:1.5rem;line-height:1.45;margin-bottom:24px}
+@media(max-width:900px){.home-card.love-block .love-art{right:22px;width:160px}.home-card.love-block h3{max-width:75%}.speech-bubble{padding:24px;gap:14px}.speech-bubble p{font-size:1.1rem}}
+@media(max-width:800px){.site-header{height:auto;min-height:95px;flex-wrap:wrap;gap:17px;padding:20px 22px 14px}.date-pill{margin-left:auto}.site-header nav{order:3;width:100%;justify-content:center;border-top:1px solid #eee4ef;padding-top:12px;gap:6px}.site-header nav a{padding:8px 13px}}
+@media(max-width:640px){.site-header nav{gap:0}.site-header nav a{padding:9px 5px;flex:1;text-align:center;font-size:.85rem;white-space:nowrap}.home-card.love-block{min-height:270px}.home-card.love-block h3{font-size:1.8rem;max-width:290px;margin-top:21px}.home-card.love-block p{max-width:175px}.home-card.love-block .love-art{width:120px;right:8px;bottom:25px}.love-heading{margin-bottom:30px}.love-heading h1{font-size:2.5rem}.love-bubbles{grid-template-columns:1fr;gap:28px;padding:0 3px 0}.speech-bubble{padding:24px 23px;min-height:132px;gap:16px}.speech-bubble:nth-child(even){transform:none}.speech-bubble p{font-size:1.15rem}.bubble-heart{font-size:1.8rem}.love-signoff{margin-top:42px}}
+@media(max-width:370px){.home-card.love-block h3{font-size:1.65rem}.home-card.love-block p{max-width:160px}.home-card.love-block .love-art{width:100px;right:2px;bottom:36px}.home-card.love-block .card-cta{font-size:.75rem}.love-heading h1{font-size:2.2rem}}
+

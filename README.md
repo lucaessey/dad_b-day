@@ -5,6 +5,7 @@ Birthday surprises at https://lucaessey.github.io/dad_b-day/.
 This is a buildless HTML/CSS/JavaScript site. GitHub Pages publishes the repository root.
 
 - Seven riddle coupons, including two family game nights.
+- Ten family love notes in colorful speech bubbles, with a confetti entrance.
 - Friendly answer matching accepts paraphrases and common typos.
 - Coupon unlocks and uses are saved in the current browser’s local storage.
 - Every redemption asks for confirmation. Spent coupons move to the bottom.
